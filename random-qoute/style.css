@@ -1,0 +1,20 @@
+.text-center {
+  text-align: center;
+}
+
+button {
+  background: blue;
+  padding: 10px;
+  border: 1px solid #000;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+h3 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+}
