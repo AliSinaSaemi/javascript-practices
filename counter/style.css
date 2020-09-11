@@ -1,0 +1,9 @@
+.text-center {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  width: 600px;
+  margin: auto;
+}
