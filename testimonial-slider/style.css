@@ -1,0 +1,33 @@
+.background {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+p {
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: scale(3);
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
