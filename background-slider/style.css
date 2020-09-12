@@ -1,0 +1,25 @@
+.background {
+  width: 500px;
+  background-color: red;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: scale(3);
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
