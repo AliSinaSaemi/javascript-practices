@@ -35,12 +35,12 @@ buttons.forEach(function (button) {
     if (button.classList.contains("right")) {
       counter++;
       if (counter == people.length) {
-        counter = 1;
+        counter = 0;
       }
     } else if (button.classList.contains("left")) {
       counter--;
-      if (counter == 0) {
-        counter = people.length;
+      if (counter == -1) {
+        counter = people.length - 1;
       }
     }
     testimonial.style.backgroundColor = people[counter].background_color;
