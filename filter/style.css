@@ -1,0 +1,38 @@
+h3 {
+  margin: 0;
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper .box {
+  width: 50%;
+  margin: 5px;
+}
+
+.wrapper .box .header {
+  background-color: aquamarine;
+  color: #fff;
+  position: relative;
+}
+
+.wrapper .box .header span {
+  position: absolute;
+  right: 25px;
+  top: 23px;
+}
+
+.wrapper .box .content {
+  background-color: beige;
+}
+
+.wrapper .box .header,
+.wrapper .box .content {
+  padding: 20px;
+}

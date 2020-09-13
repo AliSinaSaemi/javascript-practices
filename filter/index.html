@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>Select a radio button and click on Submit.</p>
+
+    Teams:
+    <input
+      type="radio"
+      name="Team"
+      value="blue"
+      onclick="choose_filter_word(this.value)"
+    />Blue
+    <input
+      type="radio"
+      name="Team"
+      value="red"
+      onclick="choose_filter_word(this.value)"
+    />Red
+    <input
+      type="radio"
+      name="Team"
+      value="yellow"
+      onclick="choose_filter_word(this.value)"
+    />Yellow
+    <br />
+    <input type="text" onkeyup="searchbar(this.value)" />
+    <hr />
+    <div class="wrapper">
+      <div class="box">
+        <div class="header">
+          <h3>Alisina</h3>
+          <span>followers: 1235</span>
+        </div>
+        <div class="content">
+          <span>Team: red</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            odio sequi vitae nostrum delectus at dolor nesciunt tempora, modi
+            explicabo vero quas sint quam iusto officia similique veniam
+            consectetur porro?
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="header">
+          <h3>Alisina</h3>
+          <span>followers: 1235</span>
+        </div>
+        <div class="content">
+          <span>Team: red</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            odio sequi vitae nostrum delectus at dolor nesciunt tempora, modi
+            explicabo vero quas sint quam iusto officia similique veniam
+            consectetur porro?
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
